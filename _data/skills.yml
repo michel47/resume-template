@@ -1,7 +1,22 @@
 # Skills
+# IT support
+- skill: "soft people skill, empathy"
+  description: |-
+   devoted to help in a timely manner, have a good sence of urgency and treat customers kindly
+   
+# problem solving
+- skill: problem solving
+  description: |-
+   extremly creative, and excelent at solving problem, specially in technology,
+   known to solve problem noone succeed before
+
 # Organizational leadership
 - skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+  description: |-
+   I have several years of experience leading organziations from community
+   groups to business departments. From public speaking, to mentoring,
+   to coordination of people and events, I can lead in any context.
+
 
 # Communications strategy
 - skill: Communications strategy
@@ -10,3 +25,4 @@
 # Digital content development and creation
 - skill: Digital content development and creation
   description: Copy writing, graphic design, web design, front-end web development, print design
+

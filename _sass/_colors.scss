@@ -1,0 +1,19 @@
+
+.wrapper {
+  background-color: $grey;
+}
+.page-header {
+  margin-top: 1.5em;
+  background-color: $white;
+  padding: 1em;
+}
+.content-section {
+  border: 1px solid;
+  padding: 1em;
+  background-color: $white;
+  color: $black;
+}
+.inverted {
+  background-color: $black;
+  color: $white;
+}

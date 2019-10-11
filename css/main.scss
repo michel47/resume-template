@@ -12,3 +12,26 @@
 
 // Layouts
 @import "resume";
+
+@import "colors";
+
+.avatar {
+  float: left;
+}
+
+.content-section.inverted a {
+  color: $white;
+}
+.inverted .section-header {
+ background-color: #e6b621;
+ color: $black;;
+ padding: 0.8em;
+}
+
+
+body {
+ // background-color: #e6b621;
+ background-image: URL("../images/01.png"),
+                   linear-gradient(to bottom right, rgba(1,0,2,0.6) 70%, black);
+ background-repeat: repeat;
+}

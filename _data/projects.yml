@@ -1,16 +1,26 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+# nutrium
+- project: Nutrium Technologies
+  role: Co-Founder & Primary Developer
+  duration: 2019 &mdash; Present
+  url: "https://duckduckgo.com/?q=+Nutrium+Technologies"
+  description: Technologies non invasive pour nutrition personalisée
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+# healthium
+- project: SHQB
+  role: Founder & Primary Architect
+  duration: 2019 &mdash; Present
+  url: "https://shqb.ml"
+  description: SHQB
+
+## Blockchain Architect and GC-Bank founder
+- project: GC-Bank, Ecublens CH
+  role: fondateur &amp; blockchain architect (20%)
+  duration: Dec, 2017 &mdash; Present
+  url: "https://gc-bank.org/"
+  description: >-
+   development d'une blockchain permissionée, plateforme collaboratives
+   et crypto monnaies eco-sociales.
+

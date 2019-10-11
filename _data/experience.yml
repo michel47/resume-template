@@ -1,19 +1,67 @@
+
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Healthium DevOps
+- company: "Healthium, Lausanne CH"
+  position: "fondateur &amp; chef d'équipe développement (60%)"
+  duration: "Jul, 2019 &mdash; Présent"
+  summary: 'Développent plateforme "dossier électronique du patient" (DEP)'
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+## Blockchain Architect and GC-Bank founder
+#- company: GC-Bank, Ecublens CH
+#  position: fondateur &amp; blockchain architecte (20%)
+#  duration: Dec, 2017 &mdash; Présent
+#  summary: >-
+#   Développent d'une blockchain permissionnée, plateforme collaboratives
+#   et crypto monnaies éco-sociales.
 
+# IT Director Ambition Center
+- company: Business Évolution, Rolle CH
+  position: Directeur Information Technologies (20%)
+  duration:  Mar, 2018 &mdash; Présent
+  summary: Support informatique pour le groupe, déploiement site web
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# INTL: SysAdmin...
+- company: Intel, Lausanne, CH
+  position: IT support and system administrator (group new devices)
+  duration: Mar, 2012 &mdash; Mar, 2018
+  summary: >-
+   Installations matérielles et logicielles, administration serveurs linux locaux, backup, et équipements laboratoire,
+   support windows pour utilisateurs, déploiement base de données production, et contrôle de ligne en Chine.
+
+# IT at startups ...
+- company: Provence IT, Santa Cruz, USA
+  position: Consultant systèmes informatiques 
+  duration:   Jun, 2001  &mdash; Feb, 2012
+  summary: >-
+   Gestion, support et maintenance du parc du informatique des entreprises:<ul>
+   <li>Apt Technologies, Santa Cruz USA
+   <li>Soft Computing, Santa Cruz, USA
+   <li>Orient Direct Inc., Montain View, USA
+   <li>Reflectivity, Montain View, USA
+   <li>Spatial Photonics, Sunnyvale, USA
+   <li>Intersil, Milpitas, USA
+   <li>Essencia, San Jose, USA
+   </ul>
+         
+# IFX:
+- company: Infineon Technology, Munich DE
+  duration:   Oct, 1999  &mdash; May, 2001
+  position: Ingénieur Matériel
+  summary: Développent plateforme test pour production micro-contrôleurs disques durs.
+ 
+
+# TXN:
+- company: Texas Instruments France, Villeneuve Loubet FR
+  duration:   Fev, 1995  &mdash; May, Fev 1997
+  position: Chef d'équipe infrastructure
+  summary: |-
+   Administration système et support CAO pour les équipes conceptions,
+   développent d'outils de migration technologiques
+   afin d'accélérer la mise sur le marcher des produits de l'entreprise.
+
+# UPMC:
+- company: "Université Pierre &amp; Marie Curie, Paris FR"
+  duration:   Oct, 1991  &mdash; May, Dec 1994
+  position: doctorant + administrateur système
+  summary: gestion et maintenance du parc du informatique du laboratoire (aegis, unix & linux)
+

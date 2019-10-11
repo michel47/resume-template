@@ -1,5 +1,5 @@
 # Site settings
-title: "Jekyll Resume Template"
+title: "Michel's Jekyll Resume (Template)"
 description: "A resume template for Jekyll and GitHub Pages sites."
 
 # Build settings
@@ -10,20 +10,24 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+resume_name:                    "<i>Dr. IT</i>, Michel G. Combes"
+resume_title:                   "all things digital, expertize and support<br>(hard &amp; soft*ware)"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           "m.combes@gc-banktm.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_telephone:       "076  760-9400"
+resume_contact_address:         "Chemin de la Chiesaz, 8, Ecublens, CH 1024"
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+resume_header_contact_info:     "Ch. Chiesaz 8, Ecublens CH 1024, • +41 76 760-9400 • michelc@gc-banktm.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: |-
+  <p>This is the executive summary. You should write a few brief, concise,
+  and meaningful sentences about yourself from a professional context,
+  and your immediate career goals. Make the length appropriate for your
+  needs, but keep it brief and concise</p>
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -37,22 +41,22 @@ resume_section_experience:      true
 resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true
-resume_section_recognition:     true
+#resume_section_recognition:     true
 resume_section_links:           true
 resume_section_associations:    true
-# resume_section_interests:       true
+resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_github_url:            "https://github.com/michel47"
+  resume_twitter_url:           "http://twitter.com/mgcombes"
+# resume_dribbble_url:          "https://dribbble.com/jag"
+  resume_facebook_url:          "https://facebook.com/mgcombs"
+  resume_linkedin_url:          "https://www.linkedin.com/in/michel-combes"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
-  resume_medium_url:            "https://medium.com/@jglovier"
+  resume_website_url:           "http://michelc.moncv.gq"
+# resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
 # Design settings

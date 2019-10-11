@@ -1,13 +1,13 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
+- degree: PhD. micro-electronique micro-informatique
+  uni: Université Pierre et Marie Curie
+  year: 1991 &mdash; 1994
   awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+    - award: graduated w/ honors
+#  summary: ~
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Electrical Engineering Degree
+  uni: Institur Supérieur d'Electronique de Paris
+  year: 1988 &mdash; 1991
+#  award: Most likely to succeed
+#  summary: You can choose to have either a single or multiple awards
