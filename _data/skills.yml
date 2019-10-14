@@ -1,28 +1,34 @@
 # Skills
 # IT support
-- skill: "soft people skill, empathy"
+- skill: "Qualité humaine, empathie"
   description: |-
-   devoted to help in a timely manner, have a good sence of urgency and treat customers kindly
+   Devoué à aider dans les temps nécessaire, possède le sens de l'urgence et traite les clients
+   avec courtoisie.
    
-# problem solving
-- skill: problem solving
+# Problem solving
+- skill: "Resolution de problèmes"
   description: |-
-   extremly creative, and excelent at solving problem, specially in technology,
-   known to solve problem noone succeed before
+   Extrêmement créatif, excellent pour résoudre les problèmes particulièrement technologiques.
+   Apprends rapidement les nouveaux langages informatiques.
 
 # Organizational leadership
-- skill: Organizational leadership
+- skill: "Direction de groupe"
   description: |-
-   I have several years of experience leading organziations from community
-   groups to business departments. From public speaking, to mentoring,
-   to coordination of people and events, I can lead in any context.
-
+   J'ai plusieurs années d'expérience dans la direction d'équipe,
+   de prise de parole en publique et d'enseignement.
+   je peux diriger dans tout contexte.
 
 # Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: "Communication et stratégie"
+  description: |-
+    A l'aise avec démarchage Commercial et génération de contenu,
+    J'ai une aptitude a convaincre facilement dans les domaines des technologies de pointes.
+
+- skill: "Développent Scripting"
+  description: |-
+   rapide en prototypage: code de de manière naturelle
 
 # Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+#- skill: Digital content development and creation
+#  description: Copy writing, graphic design, web design, front-end web development, print design
 

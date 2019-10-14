@@ -54,6 +54,7 @@ section_skills:          true
 section_links:           true
 section_associations:    true
 section_interests:       true
+#print_icon: true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL

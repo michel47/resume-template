@@ -5,7 +5,9 @@
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
-    <div id="panel" class="no-print"></div>
+  <div id="panel" class="no-print" style="text-align: right;">
+  <li class="icon-link-item"><a href="#" onclick="window.print();" class="icon-link" itemprop="print">{% include icons/icon-print.html %}</a></li>
+  </div>
     <div id="backdrop" class="no-print"></div>
     <div class="wrapper" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="telephone" content="{{ site.data.resume.contact_telephone }}"/>

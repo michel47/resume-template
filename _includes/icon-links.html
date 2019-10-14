@@ -48,5 +48,9 @@
   <li class="icon-link-item"><a href="{{ site.data.resume.pdf_url }}" class="icon-link" itemprop="url">{% include icons/icon-pdf.html %}</a></li>
   {% endif %}
 
+  {% if site.data.resume.print_icon %}
+  <li class="icon-link-item"><a href="#" onclick="window.print();" class="icon-link" itemprop="print">{% include icons/icon-print.html %}</a></li>
+  {% endif %}
+
 </ul>
 {% endif %}
