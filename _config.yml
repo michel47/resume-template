@@ -10,8 +10,8 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "<i>Dr. IT</i>, Michel G. Combes"
-resume_title:                   "all things digital, expertize and support<br>(hard &amp; soft*ware)"
+resume_name:                    "Dr. IT, Michel G. Combes"
+resume_title:                   "all things digital, expertise and support<br>(hard &amp; soft*ware)"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "m.combes@gc-banktm.com"
@@ -24,10 +24,10 @@ resume_header_contact_info:     "Ch. Chiesaz 8, Ecublens CH 1024, • +41 76 760
 display_header_contact_info:    "false"
 
 resume_header_intro: |-
-  <p>I do excell in solving IT problems, and love my customer interaction,
-  I have a deep knowledge of hardware and software allowing me to give
-  your support on anything computer related,
-  I can work on an employement contract basis,
+  <p>I excel in solving IT problems, and love my customer interaction.
+  I have deep knowledge of hardware and software allowing me to give
+  you support on anything computer related.
+  I can work on an employment contract basis,
   or by the hour for emergency situations.
   </p>
 

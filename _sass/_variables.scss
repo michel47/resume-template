@@ -5,8 +5,31 @@ $container-width: 980px !default;
 $grid-gutter:     10px !default;
 
 // Colors
+$orange: #fea621;
+$cyan-grey: #354545;
+
+$hospital-blue: #98EDFE;
+$medical-blue: #02b2c8;
+
+$brand-color: #354450; // blueish-grey
+$brand-color: #354545; // cyanish-grey
+$brand-color: #02b2c8; // medical-blue
+$brand-color: #02b2c8; // medical-blue
+$brand-color: $orange;
+
+$brand-background: darken($brand-color,38%);
+
+$brand-color-light: lighten($brand-color,70%);
+$brand-color-dark: darken($brand-color,30%);
+
+$brand-background-light: lighten($brand-color,50%);
+$brand-background-dark: darken($brand-background,30%);
+
 $white:             #eeeffe;
 $black:             #08080B;
+
+$offwhite:          lighten($brand-color,56%);
+$offblack:          $brand-background-dark;
 $grey:              #303034;
 
 $a-hover: #9c9c9c;

@@ -15,23 +15,15 @@
 
 @import "colors";
 
-.avatar {
-  float: left;
-}
 
-.content-section.inverted a {
-  color: $white;
-}
-.inverted .section-header {
- background-color: #e6b621;
- color: $black;;
- padding: 0.8em;
-}
-
-
-body {
- // background-color: #e6b621;
- background-image: URL("../images/01.png"),
-                   linear-gradient(to bottom right, rgba(1,0,2,0.6) 70%, black);
- background-repeat: repeat;
+#panel {
+ width: calc(100vw - 5px);
+ height: 100vh;
+ background-color: rgba($brand-color,0.6);
+ background-image: linear-gradient(to bottom right, rgba(1,0,2,0.6) 30%, black);
+ top: 0;
+ right: 0;
+ position: fixed;
+ z-index: -3;
+ //border: 5px magenta dashed;
 }

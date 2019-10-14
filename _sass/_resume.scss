@@ -1,11 +1,18 @@
 // Resume styles
 // ---------------------------------------/
 
+// layers ...
+.wrapper {
+ margin-top: 2em;;
+ z-index: 3;
+}
+
 // util
 
 .section-header {
   @include section_border;
   margin-bottom: 1.5rem;
+  padding: 0.8em;
 
   h2 {
     @include sans;
@@ -18,15 +25,20 @@
 
 // page header styles
 
-.page-header { padding: 1.5rem 0;
+.page-header {
+  margin-top: 1.5em;
+  padding: 1.5rem 1em;
 
   .avatar {
     width: 95px;
     max-width: 100%;
     overflow: hidden;
-    @include border-radius(100px);
-    margin: 0 auto;
+    @include border-radius(20px);
+    float: left;
+    //margin: 0 auto;
     display: block;
+    border: 1px solid;
+    background-color: $offwhite;
   }
 
   .header-name {
@@ -134,6 +146,7 @@
 
 .content-section {
   margin: 0 0 3rem;
+  padding: 1em;
 
   .resume-item { margin-bottom: 2rem; }
 
@@ -189,7 +202,11 @@
 
     > a {
       font-weight: 700;
-      color: $black;
+      color: $offwhite;
+      &:hover {
+         background-color: $but-fg;
+         color: $white;
+       }
     }
   }
 }

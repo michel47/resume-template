@@ -1,19 +1,61 @@
+body {
+ background-color: rgba(green,0.01);
+}
 
 .wrapper {
-  background-color: $grey;
+  background-color: $brand-background-dark;
+  border: 1px $brand-background dotted;
+  opacity: 0.99;
 }
 .page-header {
-  margin-top: 1.5em;
-  background-color: $white;
-  padding: 1em;
+  background-color: $brand-background-light;
+}
+
+// ----------------------------------------------
+.section-header {
+ background-color: $brand-background-light;
 }
 .content-section {
-  border: 1px solid;
-  padding: 1em;
-  background-color: $white;
+  border: 1px $brand-color dotted;
+  background-color: $offwhite;
   color: $black;
 }
-.inverted {
-  background-color: $black;
+// ----------------------------------------------
+.inverted { // reversed video
+  background-color: $brand-background;
+  color: $offwhite;
+}
+.inverted .section-header {
+ background-color: $brand-color;
+ color: $black;
+}
+.content-section.inverted a {
   color: $white;
 }
+// ----------------------------------------------
+#backdrop {
+ width: 100vw;
+ height: calc(100vh - 3px);
+ background-image: URL("../images/01.jpg");
+ background-size:  200px 150px;
+ background-repeat: repeat;
+ opacity: 1.0;
+ position: fixed;
+ top: 0;
+ z-index: -5;
+ //border: 5px blue dashed;
+}
+#panel {
+ width: calc(100vw - 5px);
+ height: 100vh;
+ background-color: rgba($brand-color,0.6);
+ background-image: linear-gradient(to bottom right, rgba(1,0,2,0.6) 30%, black);
+ top: 0;
+ right: 0;
+ position: fixed;
+ z-index: -3;
+ //border: 5px magenta dashed;
+}
+// ----------------------------------------------
+
+
