@@ -15,7 +15,7 @@ $brand-color: #354450; // blueish-grey
 $brand-color: #354545; // cyanish-grey
 $brand-color: #02b2c8; // medical-blue
 $brand-color: #02b2c8; // medical-blue
-$brand-color: $orange;
+$brand-color: $cyan-grey;
 
 $brand-background: darken($brand-color,38%);
 
@@ -32,6 +32,8 @@ $offwhite:          lighten($brand-color,56%);
 $offblack:          $brand-background-dark;
 $grey:              #303034;
 
+$avatar-back: $offwhite;
+
 $a-hover: #9c9c9c;
 $but-bg: #efefef;
 $but-fg: #333;
@@ -45,7 +47,7 @@ $bground: $grey;
 $body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
 // The base body size
-$body-font-size: 13px !default;
+$body-font-size: 16px !default;
 
 // Monospace font stack
 $mono-font: Consolas, "Liberation Mono", Menlo, Courier, monospace !default;

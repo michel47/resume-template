@@ -1,10 +1,14 @@
 // Resume styles
 // ---------------------------------------/
 
-// layers ...
-.wrapper {
- margin-top: 2em;;
- z-index: 3;
+@media screen {
+   // layers ...
+   .wrapper {
+      margin-top: 2em;;
+      z-index: 3;
+      text-align: justify;
+      text-justify: auto;
+   }
 }
 
 // util
@@ -27,7 +31,12 @@
 
 .page-header {
   margin-top: 1.5em;
+  @media screen {
   padding: 1.5rem 1em;
+  }
+  @media print {
+  padding: 1.5rem 0;
+  }
 
   .avatar {
     width: 95px;
@@ -38,7 +47,7 @@
     //margin: 0 auto;
     display: block;
     border: 1px solid;
-    background-color: $offwhite;
+    background-color: $avatar-back;
   }
 
   .header-name {
@@ -198,14 +207,10 @@
   .footer-line {
     margin: 0;
     font-size: .875rem;
-    color: #999;
-
     > a {
       font-weight: 700;
-      color: $offwhite;
       &:hover {
          background-color: $but-fg;
-         color: $white;
        }
     }
   }
@@ -216,13 +221,22 @@
 @media print {
   .no-print { display: none !important }
   .print-only { display: block !important }
-  body { font-size: 12px; line-height: 1rem; }
+  html { background: white }
+  body {
+   font-size: 12px; line-height: 1rem;
+  }
   .page-header { padding: 1rem 0 .2rem;
     .header-name {
       @include sans_bold;
       font-size: 2rem;
       margin: 0 0 .2rem;
     }
+  }
+  .wrapper {
+     max-width: 100%;
+     padding: 0 0.2rem;
+     margin: 0 auto;
+     zoom: 1;
   }
   .section-header {
     @include section_border_thin;
@@ -240,6 +254,7 @@
     .resume-item-details {
       font-size: 12px;
       margin: 0 0 .75rem;
+      padding: 0;
       line-height: .7em;
       font-style:italic;
 

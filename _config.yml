@@ -2,64 +2,13 @@
 title: "Michel's Jekyll Resume (Template)"
 description: "A resume template for Jekyll and GitHub Pages sites."
 
+chart: https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chld=M&chs=160&chl=
+
 # Build settings
 markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
-
-# Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Dr. IT, Michel G. Combes"
-resume_title:                   "all things digital, expertise and support<br>(hard &amp; soft*ware)"
-
-# used for the contact button in _layouts/resume.html
-resume_contact_email:           "m.combes@gc-banktm.com"
-
-# the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "076  760-9400"
-resume_contact_address:         "Chemin de la Chiesaz, 8, Ecublens, CH 1024"
-
-resume_header_contact_info:     "Ch. Chiesaz 8, Ecublens CH 1024, • +41 76 760-9400 • michelc@gc-banktm.com"
-display_header_contact_info:    "false"
-
-resume_header_intro: |-
-  <p>I excel in solving IT problems, and love my customer interaction.
-  I have deep knowledge of hardware and software allowing me to give
-  you support on anything computer related.
-  I can work on an employment contract basis,
-  or by the hour for emergency situations.
-  </p>
-
-# use "yes" to display the email contact button,
-# "no" to display an "I'm not looking for work" message,
-# or remove the resume_looking_for_work option entirely
-# to leave blank
-resume_looking_for_work:        "yes"
-
-# Decide which sections to use
-# comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-#resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
-resume_section_interests:       true
-
-# Resume social links
-# uncomment the options you wish to display, and add your own URL
-resume_social_links:
-  resume_github_url:            "https://github.com/michel47"
-  resume_twitter_url:           "http://twitter.com/mgcombes"
-# resume_dribbble_url:          "https://dribbble.com/jag"
-  resume_facebook_url:          "https://facebook.com/mgcombs"
-  resume_linkedin_url:          "https://www.linkedin.com/in/michel-combes"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://michelc.moncv.gq"
-# resume_medium_url:            "https://medium.com/@jglovier"
-resume_print_social_links:      true
 
 # Design settings
 resume_theme:                   default

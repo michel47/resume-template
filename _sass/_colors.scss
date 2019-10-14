@@ -1,7 +1,8 @@
+
+@media screen {
 body {
  background-color: rgba(green,0.01);
 }
-
 .wrapper {
   background-color: $brand-background-dark;
   border: 1px $brand-background dotted;
@@ -10,27 +11,50 @@ body {
 .page-header {
   background-color: $brand-background-light;
 }
+.footer-line {
+  color: #aaa;
+  > a {
+      font-weight: 700;
+      color: $but-fg;
+      &:hover {
+         color: $white;
+       }
+  }
+
+}
 
 // ----------------------------------------------
 .section-header {
  background-color: $brand-background-light;
 }
+// ----------------------------------------------
 .content-section {
-  border: 1px $brand-color dotted;
   background-color: $offwhite;
   color: $black;
 }
+
 // ----------------------------------------------
 .inverted { // reversed video
   background-color: $brand-background;
   color: $offwhite;
 }
+
 .inverted .section-header {
  background-color: $brand-color;
  color: $black;
 }
-.content-section.inverted a {
-  color: $white;
+.content-section {
+  border: 1px $brand-color dotted;
+  .inverted a {
+    color: $but-fg;
+    &:hover { color: $a-hover; }
+  }
+}
+.content-section.inverted {
+  .resume-item a {
+    color: white;
+  }
+
 }
 // ----------------------------------------------
 #backdrop {
@@ -57,5 +81,4 @@ body {
  //border: 5px magenta dashed;
 }
 // ----------------------------------------------
-
-
+}
