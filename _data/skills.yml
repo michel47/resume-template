@@ -4,6 +4,10 @@
   description: |-
    Devoué à aider dans les temps nécessaire, possède le sens de l'urgence et traite les clients
    avec courtoisie.
+
+- skill: "Technologies blockchaines"
+  description: |-
+   Expert en architecture de blockchaine et developpement de blockchaines écosociales, et solutions cryptographiques
    
 # Problem solving
 - skill: "Resolution de problèmes"
@@ -26,7 +30,7 @@
 
 - skill: "Développent Scripting"
   description: |-
-   rapide en prototypage: code de de manière naturelle
+   rapide en prototypage: code de de manière naturelle, langages: perl, python, go, js
 
 # Digital content development and creation
 #- skill: Digital content development and creation
