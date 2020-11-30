@@ -6,6 +6,7 @@ $grid-gutter:     10px !default;
 
 // Colors
 $orange: #fea621;
+$purple: #a621fe;
 $cyan-grey: #354545;
 
 $hospital-blue: #98EDFE;
@@ -16,6 +17,7 @@ $brand-color: #354545; // cyanish-grey
 $brand-color: #02b2c8; // medical-blue
 $brand-color: #02b2c8; // medical-blue
 $brand-color: $cyan-grey;
+$brand-color: $purple;
 
 $brand-background: darken($brand-color,38%);
 
