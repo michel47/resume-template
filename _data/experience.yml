@@ -1,6 +1,13 @@
 --- # Professional Experiences 
 # Jobs
 
+# EOT
+- company: "Eco Organic Technology (20%)"
+  position: "founder"
+  duration: "Mar, 2020 &mdash; Présent"
+  summary: >-
+   Technology consultancy, office system intallation, support and maintenance
+
 # Willforge
 - company: "Willforge - FairTools (civicTech)"
   position: "Technology team lead (40%)"
@@ -12,7 +19,7 @@
 
 # HoloSphere OS
 - company: "Krystal Intelligence Network"
-  position: "main architect (40%)"
+  position: "main architect (20%)"
   duration: "Dec, 2019 &mdash; Nov, 2020"
   summary: >-
    Développent plateforme "d'outil d'aide a la collaboration
