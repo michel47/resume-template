@@ -1,10 +1,17 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
+- organization: DistributedBrain
+  role: social-tech software development
+  year: 2020 &mdash; present
+  url: https://keybase.io/team/distributedbrain
+  summary:
+   opensource development team
+
 - organization: Ambition Center
   role: IT support
-  year: 2018 &mdash; present
-  url: https://www.ambitioncenter.ch
+  year: 2018 &mdash; 2019
+  url: https://web.archive.org/web/20191030214249/https://ambitioncenter.ch/
   summary:
    miscelleaneous IT work to run the collectif infrastructure.
 
@@ -12,7 +19,7 @@
 - organization: 2GETHER
   role: Vice President
   year: 2016 &mdash; 2018
-  url: http://2gether.international
+  url: https://web.archive.org/web/20200929032404/https://association2gether.ch/
   summary: |
    Providing support to family with parental alienation,
    Organizing conference, and fund raising campaign.

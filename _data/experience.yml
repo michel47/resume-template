@@ -1,40 +1,25 @@
 --- # Professional Experiences 
 # Jobs
 
-# EOT
-- company: "Eco Organic Technology (20%)"
-  position: "founder"
-  duration: "Mar, 2020 &mdash; Présent"
+# Blockchain Architect and Eco Organic Technologies
+- company: Doctor IT, Ecublens CH
+  position: fondateur
+  duration: Dec, 2020 &mdash; Présent
   summary: >-
-   Technology consultancy, office system intallation, support and maintenance
-
-# Willforge
-- company: "Willforge - FairTools (civicTech)"
-  position: "Technology team lead (40%)"
-  duration: "Nov, 2019 &mdash; Présent"
-  summary: >-
-   Développent blockchain solution for implementing "Rousseau's legislator"
-   and scalable condorcet ballot on DAG tries for group decision making.
-
+   Information Technologie, installation support et maintenance de systeme pour "home-office"
 
 # HoloSphere OS
 - company: "Krystal Intelligence Network"
+  display: none
   position: "main architect (20%)"
   duration: "Dec, 2019 &mdash; Nov, 2020"
   summary: >-
    Développent plateforme "d'outil d'aide a la collaboration
 
-
-# Healthium DevOps
-- company: "Healthium, Lausanne CH"
-  position: "fondateur &amp; chef d'équipe développement (20%)"
-  duration: "Jul, 2019 &mdash; Présent"
-  summary: 'Développent plateforme "dossier électronique du patient" (DEP)'
-
-# Blockchain Architect and GC-Bank founder
-- company: GC-Bank, Ecublens CH
-  position: fondateur &amp; blockchain architecte (0%)
-  duration: Dec, 2017 &mdash; Présent
+# Blockchain Architect and GC Bank
+- company: GC Bank, Ecublens CH
+  position: fondateur &amp; blockchain architect
+  duration: Dec, 2017 &mdash; 2019
   summary: >-
    Développent d'une blockchain permissionnée, plateforme collaboratives
    et crypto monnaies éco-sociales.
@@ -42,8 +27,8 @@
 # IT Director Ambition Center
 - company: Business Évolution, Rolle CH
   display: none
-  position: Directeur Information Technologies (0%)
-  duration:  Mar, 2018 &mdash; Présent
+  position: Directeur Information Technologies
+  duration:  Mar, 2018 &mdash; 2019
   summary: Support informatique pour le groupe, déploiement site web
 
 # INTL: SysAdmin...

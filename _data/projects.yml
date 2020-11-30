@@ -1,8 +1,27 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+# EOT
+- project: "Eco Organic Technology (20%)"
+  role: "foundateur &amp; blockchain architecte"
+  duration: "Mar, 2020 &mdash; Présent"
+  description: >-
+   Technology consultancy, office system intallation, support and maintenance
+   Développent d'une blockchain permissionnée, plateforme collaboratives
+
+
+# Willforge
+- project: "Willforge - FairTools (civicTech)"
+  role: "Technology team lead (40%)"
+  duration: "Nov, 2019 &mdash; Présent"
+  description: >-
+   Développent blockchain solution for implementing "Rousseau's legislator"
+   and scalable condorcet ballot on DAG tries for group decision making.
+
+
 # nutrium
 - project: Nutrium Technologies
+  display: none
   role: Co-Founder & Primary Developer
   duration: 2019 &mdash; Present
   url: "https://duckduckgo.com/?q=+Nutrium+Technologies"
@@ -17,6 +36,14 @@
    The SHQB provides a consistent, private, reliable location for your data
    you can access easily using a variety of applications. Information will
    never be too old or impossible to access and it stays with you for life.
+
+# Healthium DevOps
+- project: "Healthium, Lausanne CH"
+  display: none
+  role: "fondateur &amp; chef d'équipe développement (20%)"
+  duration: "Jul, 2019 &mdash; Présent"
+  summary: 'Développent plateforme "dossier électronique du patient" (DEP)'
+
 
 
 ## Blockchain Architect and GC-Bank founder
