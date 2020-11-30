@@ -51,8 +51,30 @@
         <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
         {% endif %}
+        <span>updated on {{site.time | date: "%b %d, %Y" }}</span>
 
       </header>
+      {% if site.data.resume.section_projects %}
+      <!-- begin Projects -->
+      <section class="content-section {% assign mod = mod | plus:1 | modulo:2 %}{% if mod == 0 %}inverted{%endif%}">
+        <header class="section-header">
+          <h2>{{site.data.resume.project_title}}</h2>
+        </header>
+
+        {% for project in site.data.projects %}
+        {% if project.display != 'none' %}
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="creator" content="{{ site.data.resume.name }}" itemtype="http://schema.org/Person" />
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
+          <p class="resume-item-copy">{{ project.description }}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+      </section>
+      <!-- end Projects -->
+      {% endif %}
 
       {% if site.data.resume.section_experience %}
       <!-- begin Experience -->
@@ -76,6 +98,25 @@
       <!-- end Experience -->
       {% endif %}
 
+      {% if site.data.resume.section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section {% assign mod = mod | plus:1 | modulo:2 %}{% if mod == 0 %}inverted{%endif%}">
+
+        <header class="section-header">
+          <h2>{{site.data.resume.skills_title}}</h2>
+        </header>
+        {% for skill in site.data.skills %}
+        {% if skill.display != 'none' %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ skill.skill }}</h4>
+          <p class="resume-item-copy">{{ skill.description }}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
 
       {% if site.data.resume.section_education %}
       <!-- begin Education -->
@@ -85,6 +126,7 @@
         </header>
 
         {% for education in site.data.education %}
+        {% if education.display != 'none' %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
@@ -99,48 +141,10 @@
 
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
+        {% endif %}
         {% endfor %}
       </section>
       <!-- end Education -->
-      {% endif %}
-
-
-      {% if site.data.resume.section_projects %}
-      <!-- begin Projects -->
-      <section class="content-section {% assign mod = mod | plus:1 | modulo:2 %}{% if mod == 0 %}inverted{%endif%}">
-        <header class="section-header">
-          <h2>{{site.data.resume.project_title}}</h2>
-        </header>
-
-        {% for project in site.data.projects %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.data.resume.name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Projects -->
-      {% endif %}
-
-      {% if site.data.resume.section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section {% assign mod = mod | plus:1 | modulo:2 %}{% if mod == 0 %}inverted{%endif%}">
-
-        <header class="section-header">
-          <h2>{{site.data.resume.skills_title}}</h2>
-        </header>
-        {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Skills -->
       {% endif %}
 
       {% if site.data.resume.section_recognition %}
@@ -152,11 +156,13 @@
         </header>
 
         {% for recognition in site.data.recognitions %}
+        {% if recognition.display != 'none' %}
         <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
           <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
           <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>
+        {% endif %}
         {% endfor %}
 
       </section>
@@ -172,11 +178,13 @@
         </header>
 
         {% for association in site.data.associations %}
+        {% if association.display != 'none' %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
           <p class="resume-item-copy">{{ association.summary }}</p>
         </div>
+        {% endif %}
         {% endfor %}
 
       </section>
@@ -194,7 +202,9 @@
         <div class="resume-item">
           <ul class="resume-item-list">
             {% for interest in site.data.interests %}
+            {% if interest.display != 'none' %}
             <li>{{ interest.description }}</li>
+            {% endif %}
             {% endfor %}
           </ul>
         </div>
@@ -215,7 +225,9 @@
           <img src={{site.chart}}{{site.url}}#links style="display: block; padding: 0px; float: right">
           <ul class="resume-item-list">
             {% for link in site.data.links %}
+            {% if link.display != 'none' %}
             <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
+            {% endif %}
             {% endfor %}
           </ul>
         </div>
