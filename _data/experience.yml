@@ -1,22 +1,41 @@
-
+--- # Professional Experiences 
 # Jobs
+
+# Willforge
+- company: "Willforge - FairTools (civicTech)"
+  position: "Technology team lead (40%)"
+  duration: "Nov, 2019 &mdash; Présent"
+  summary: >-
+   Développent blockchain solution for implementing "Rousseau's legislator"
+   and scalable condorcet ballot on DAG tries for group decision making.
+
+
+# HoloSphere OS
+- company: "Krystal Intelligence Network"
+  position: "main architect (40%)"
+  duration: "Dec, 2019 &mdash; Nov, 2020"
+  summary: >-
+   Développent plateforme "d'outil d'aide a la collaboration
+
+
 # Healthium DevOps
 - company: "Healthium, Lausanne CH"
-  position: "fondateur &amp; chef d'équipe développement (60%)"
+  position: "fondateur &amp; chef d'équipe développement (20%)"
   duration: "Jul, 2019 &mdash; Présent"
   summary: 'Développent plateforme "dossier électronique du patient" (DEP)'
 
-## Blockchain Architect and GC-Bank founder
-#- company: GC-Bank, Ecublens CH
-#  position: fondateur &amp; blockchain architecte (20%)
-#  duration: Dec, 2017 &mdash; Présent
-#  summary: >-
-#   Développent d'une blockchain permissionnée, plateforme collaboratives
-#   et crypto monnaies éco-sociales.
+# Blockchain Architect and GC-Bank founder
+- company: GC-Bank, Ecublens CH
+  position: fondateur &amp; blockchain architecte (0%)
+  duration: Dec, 2017 &mdash; Présent
+  summary: >-
+   Développent d'une blockchain permissionnée, plateforme collaboratives
+   et crypto monnaies éco-sociales.
 
 # IT Director Ambition Center
 - company: Business Évolution, Rolle CH
-  position: Directeur Information Technologies (20%)
+  display: none
+  position: Directeur Information Technologies (0%)
   duration:  Mar, 2018 &mdash; Présent
   summary: Support informatique pour le groupe, déploiement site web
 
@@ -59,9 +78,27 @@
    développent d'outils de migration technologiques
    afin d'accélérer la mise sur le marcher des produits de l'entreprise.
 
+# EPITA:
+- company: "EPITA, Paris FR"
+  duration:   Sep, 1994  &mdash; May, Feb 1995
+  position: Enseignant, Administration Systèmes et Réseaux
+  summary: |-
+    Cours d'Informatique pour Ingénieurs de l'école EPITA
+
+
 # UPMC:
 - company: "Université Pierre &amp; Marie Curie, Paris FR"
   duration:   Oct, 1991  &mdash; May, Dec 1994
   position: doctorant + administrateur système
-  summary: gestion et maintenance du parc du informatique du laboratoire (aegis, unix & linux)
+  summary: |-
+    gestion et maintenance du parc du informatique du laboratoire (aegis, unix & linux).
 
+# ISEP
+- company: "Institut Supérieur d'Electronique de Paris, Paris FR"
+  duration:   Oct, 1990  &mdash; May, Dec 1993
+  position: professeur micro-electronique micro-informatique
+  summary: |-
+    Enseignement des cours informatique et physique du semiconducteur dans les écoles d'ingénieurs.
+    
+
+ 
