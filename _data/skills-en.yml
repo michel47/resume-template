@@ -1,16 +1,16 @@
 # Skills
 # IT support
-- skill: "soft people skill, empathy"
+- skill: "Soft people skill, empathy"
   description: |-
-   devoted to help in a timely manner, have a good sence of urgency and treat customers kindly
-   support level 2, 3, 4 as well as application and infrastructure, excelent listening skills
+   Devoted to help in a timely manner, have a good sence of urgency and treat customers kindly
+   support level 2, 3, 4 as well as application and infrastructure, excelent listening skills.
    
    
 # problem solving
-- skill: problem solving
+- skill: Problem solving
   description: |-
-   extremly creative, and excelent at solving problem, specially in technology,
-   known to solve problem noone succeed before
+   Extremly creative, and excelent at solving problem, specially in technology,
+   known to solve problem noone succeed before.
 
 # Organizational leadership
 - skill: Organizational leadership
@@ -22,12 +22,12 @@
 
 # Communications strategy
 - skill: Communications strategy
-  description: Content and marketing strategy,
+  description: Content and marketing strategy, 
 
 # Digital content development and creation
 - skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+  description: Copy writing, graphic design, web design, front-end web development, print design.
 
 # technical skills
-- skill: Computer Languages
-  description: JAMstack, golang, python, perl, verilog, C
+- skill: Computer Languages and Tools
+  description: JAMstack, GIT, Docker, IPFS<br> javascript, golang, python, perl, verilog, C.

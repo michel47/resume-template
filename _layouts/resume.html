@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 {%- if page.lang -%}
-{% assign resume = 'resume-' | append: page.lang; %}
+{% assign resume = 'resume-' | append: page.lang %}
 {% assign projects = 'projects-'| append: page.lang %}
 {% assign experience = 'experience-'| append: page.lang %}
 {% assign skills = 'skills-'| append: page.lang %}
 {% assign education = 'education-'| append: page.lang %}
+{% assign interests = 'interests-'| append: page.lang %}
 {% assign associations = 'associations-'| append: page.lang %}
 {% assign links = 'links-'| append: page.lang %}
 {%- else -%}
@@ -13,7 +14,8 @@
 {% assign experience = 'experience' %}
 {% assign skills = 'skills' %}
 {% assign education = 'education' %}
-{% assign association = 'association' %}
+{% assign interests = 'interests' %}
+{% assign associations = 'associations' %}
 {% assign links = 'links' %}
 {%- endif -%}
 <html>
@@ -77,7 +79,7 @@
         <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
         {% endif %}
-        {% if lang == 'fr' %}
+        {% if page.lang == 'fr' %}
         <span>mise à jour {{site.time | date: "%Y-%m-%d" }}</span>
         {% else %}
         <span>updated on {{site.time | date: "%b %d, %Y" }}</span>

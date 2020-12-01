@@ -1,43 +1,44 @@
 --- # resume settings ...
 
 
-
 # Resume settings
 avatar:                  "true"
 name:                    "Dr. IT, Michel G. Combes"
-title:                   "all things digital, expertise and support<br>(hard &amp; soft*ware)"
+title:                   "Transition tout numérique, expertise et support<br>(matériel et logitiel)"
 
 # used for the contact button in _layouts/resume.html
+contact_phone:           "+41 76 689 4880"
 contact_email:           "m.combes@gc-banktm.com"
-contact_button: contact me
-pdf_save: save to pdf
-pdf_url: mgc_resume_oct19.pdf
+contact_button: contactez moi
+pdf_save: sauvegarde pdf
+pdf_url: mgc_cv_oct19.pdf
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 contact_telephone:       "076  760-9400"
 contact_address:         "Chemin de la Chiesaz, 8, Ecublens, CH 1024"
 
 header_contact_info:     "Ch. Chiesaz 8, Ecublens CH 1024, • +41 76 760-9400 • michelc@gc-banktm.com"
-display_header_contact_info:    "false"
+display_header_contact_info:    "true"
 
 header_intro: |-
-  <p>
-  I excel in solving IT problems, and love my customer interaction.
-  I have an depth knowledge of hardware and software allowing me to give
-  you efficient solutions and support on anything computer related.
-  I can work under contract, or by the hour for emergency situations.
+  <p>27 années en ingénierie informatique, je suis qualifié pour résoudre vos problèmes,
+  de plus j'aime l'interaction avec mes clients.
+  Je possède une connaissance approfondie des ordinateurs et de la cryptographie
+  ce qui me permet de vous offrir des solutions et un support efficace.
+  Je peux travailler sous contrat ou mandat horaire pour les urgences.
   </p>
+experience_title: Expériences professionnelle
+education_title: Parcours académique
+project_title: Projets 
+skills_title: Compétences
+associations_title: Activités associatives
+interests_title: Intérêts personnels
+links_title: Liens supplémentaire
 
-experience_title: Professional Experience
-education_title: Education
-project_title: Projects 
-skills_title: Skills
-associations_title: Associations
-interests_title: <!-- Outside -->Interests
-links_title: Additional Links
-social_links_title: Social Links
-footer_line: If this is your live resume, you can modify or remove this part. ;-
-
+interests_title: Centre d'intérêts
+links_title: Liens Supplémentaires
+social_links_title: Liens Sociaux
+footer_line: If this is your live resume, you can modify or remove this part. ;-)
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the looking_for_work option entirely
@@ -50,10 +51,11 @@ section_experience:      true
 section_education:       true
 section_projects:        true
 section_skills:          true
-#section_recognition:     true
+section_recognition:     false
 section_links:           true
 section_associations:    true
 section_interests:       true
+#print_icon: true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL

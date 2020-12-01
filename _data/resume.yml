@@ -8,6 +8,7 @@ name:                    "Dr. IT, Michel G. Combes"
 title:                   "Transition tout numérique, expertise et support<br>(matériel et logitiel)"
 
 # used for the contact button in _layouts/resume.html
+contact_phone:           "+41 76 689 4880"
 contact_email:           "m.combes@gc-banktm.com"
 contact_button: contactez moi
 pdf_save: sauvegarde pdf

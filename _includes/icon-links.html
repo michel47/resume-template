@@ -2,6 +2,11 @@
 {% if site.data.resume.social_links %}
 <ul class="icon-links">
 
+  <!-- Phone link -->
+  {% if site.data.resume.contact_phone %}
+  <li class="icon-link-item"><a href="callto:{{ site.data.resume.contact_phone | remove: ' ' }}" title="{{ site.data.resume.contact_phone }}" class="icon-link" itemprop="sameAs">{% include icons/icon-phone.svg %}</a></li>
+  {% endif %}
+
   <!-- LinkedIn link -->
   {% if site.data.resume.social_links.linkedin_url %}
   <li class="icon-link-item"><a href="{{ site.data.resume.social_links.linkedin_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-linkedin.html %}</a></li>
@@ -50,6 +55,19 @@
 
   {% if site.data.resume.print_icon %}
   <li class="icon-link-item"><a href="#" onclick="window.print();" class="icon-link" itemprop="print">{% include icons/icon-print.html %}</a></li>
+  {% endif %}
+
+  {% if page.lang == 'fr' %}
+  <li class="icon-link-item"><a href="index-en.html" class="icon-link" itemprop="en">{% include icons/icon-us-flag.svg %}</a></li>
+  <li class="icon-link-item"><a href="index.html" class="icon-link" itemprop="ch">{% include icons/icon-ch-flag.svg %}</a></li>
+  {% else %}
+  {% if page.lang == 'en' %}
+  <li class="icon-link-item"><a href="index-fr.html" class="icon-link" itemprop="fr">{% include icons/icon-fr-flag.svg %}</a></li>
+  <li class="icon-link-item"><a href="index.html" class="icon-link" itemprop="ch">{% include icons/icon-ch-flag.svg %}</a></li>
+  {% else %}
+  <li class="icon-link-item"><a href="index-en.html" class="icon-link" itemprop="en">{% include icons/icon-us-flag.svg %}</a></li>
+  <li class="icon-link-item"><a href="index-fr.html" class="icon-link" itemprop="fr">{% include icons/icon-fr-flag.svg %}</a></li>
+  {% endif %}
   {% endif %}
 
 </ul>

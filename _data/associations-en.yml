@@ -2,24 +2,24 @@
 # comment out the urls if you do not wish to display them
 
 - organization: DistributedBrain
-  role: development de logitiel pour l'industrie social-tech
+  role: social-tech software development
   year: 2020 &mdash; present
   url: https://keybase.io/team/distributedbrain
   summary:
-   developpement open-source
+   opensource development team
 
 - organization: Ambition Center
-  role: support informatique
+  role: IT support
   year: 2018 &mdash; 2019
   url: https://web.archive.org/web/20191030214249/https://ambitioncenter.ch/
   summary:
-   operation et gestion de l'infrastucture informatique du groupe.
+   miscelleaneous IT work to run the collectif infrastructure.
 
 
-- organization: 2gether
+- organization: 2GETHER
   role: Vice President
   year: 2016 &mdash; 2018
   url: https://web.archive.org/web/20200929032404/https://association2gether.ch/
   summary: |
-   Support pour les familles et enfants soufrant d'aliéation parentale.
-   Organisation de conférence, and campagne de levée de fonds.
+   Providing support to family with parental alienation,
+   Organizing conference, and fund raising campaign.
