@@ -42,6 +42,6 @@ rm -f output.pdf
 fi
 
 
-
+bundle exec jekyll build
 
 
