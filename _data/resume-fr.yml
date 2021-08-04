@@ -11,7 +11,7 @@ contact_phone:           "+41 76 689 4880"
 contact_email:           "m.combes@gc-banktm.com"
 contact_button: contactez moi
 pdf_save: sauvegarde pdf
-pdf_url: mgc_cv_oct19.pdf
+pdf_url: mgc_cv_aug21.pdf
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 contact_telephone:       "076  760-9400"
@@ -21,9 +21,9 @@ header_contact_info:     "Ch. Chiesaz 8, Ecublens CH 1024, • +41 76 760-9400 �
 display_header_contact_info:    "true"
 
 header_intro: |-
-  <p>27 années en ingénierie informatique, je suis qualifié pour résoudre vos problèmes,
+  <p>Formé en ingénierie informatique, je suis qualifié pour résoudre vos problèmes,
   de plus j'aime l'interaction avec mes clients.
-  Je possède une connaissance approfondie des ordinateurs et de la cryptographie
+  Je possède une connaissance approfondie des ordinateurs, des réseaux et de la cryptographie
   ce qui me permet de vous offrir des solutions et un support efficace.
   Je peux travailler sous contrat ou mandat horaire pour les urgences.
   </p>
@@ -67,7 +67,8 @@ social_links:
   facebook_url:          "https://facebook.com/mgcombs"
   linkedin_url:          "https://www.linkedin.com/in/michel-combes"
   # instagram_url:         "insert your Instagram URL here"
-  website_url:           "http://michelc.moncv.gq"
+  #website_url:           "http://michelc.moncv.gq"
+  website_url:           "https://www.drit.ml"
 # medium_url:            "https://medium.com/@jglovier"
 print_social_links:      true
 

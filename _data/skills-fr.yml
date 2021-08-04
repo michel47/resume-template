@@ -32,6 +32,7 @@
 - skill: "Développent Scripting"
   description: |-
    rapide en prototypage: code de manière naturelle dans les langages: perl, python, go, javascript.
+   Familiarity avec code function, object et <abbr title="Implicit Reference to Parameters">IRP</a>
 
 # Digital content development and creation
 #- skill: Digital content development and creation

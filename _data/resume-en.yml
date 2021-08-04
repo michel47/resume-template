@@ -11,7 +11,8 @@ title:                   "all things digital, expertise and support<br>(hard &am
 contact_email:           "m.combes@gc-banktm.com"
 contact_button: contact me
 pdf_save: save to pdf
-pdf_url: mgc_resume_oct19.pdf
+pdf_downl: download
+pdf_url: mgc_resume_aug21.pdf
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 contact_telephone:       "076  760-9400"

@@ -15,7 +15,7 @@
   role: "Technology team lead (40%)"
   duration: "Nov, 2019 &mdash; Present"
   description: >-
-   Develop blockchain solution for implementing "Rousseau's legislator"
+   Develop blockchain solution for javascript implementation of "Rousseau's legislator"
    and scalable condorcet ballot on DAG tries for group decision making.
 
 

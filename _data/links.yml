@@ -1,11 +1,21 @@
 # links
+- url: "https://bl.ocks.org/michel47"
+  description: Michel's Gists
+- url: "https://www.nutrauhealth.com"
+  description: Personalized Nutrition
+- url: "https://phenomX.ml"
+  description: machine learned precision nutrition.
 - url: "https://healthium.gq"
   description: Healthium Technology
 - url: "https://shqb.ml"
   description: Self Health Quantification Blockchain
-- url: "https://nutrium.ml"
-  description: Nutrium Technologies
+#- url: "https://nutrium.ml"
+# description: Nutrium Technologies
+- url: "https://gist.github.com/DrI-T"
+  description: Dr I·T's Gists
 - url: "https://gc-bank.org"
   description: GC-Bank
+- url: "https://www.drit.ml"
+  description: Doctor I·T
 - url: "https://mcombes.resume℠.gq/"
   description: Michel's Resume

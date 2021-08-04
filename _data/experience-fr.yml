@@ -58,6 +58,7 @@
          
 # IFX:
 - company: Infineon Technology, Munich DE
+  display: none
   duration:   Oct, 1999  &mdash; May, 2001
   position: Ingénieur Matériel
   summary: Développent plateforme test pour production micro-contrôleurs disques durs.
@@ -65,6 +66,7 @@
 
 # TXN:
 - company: Texas Instruments France, Villeneuve Loubet FR
+  display: none
   duration:   Fev, 1995  &mdash; May, Fev 1997
   position: Chef d'équipe infrastructure
   summary: |-
@@ -74,6 +76,7 @@
 
 # EPITA:
 - company: "EPITA, Paris FR"
+  display: none
   duration:   Sep, 1994  &mdash; May, Feb 1995
   position: Enseignant, Administration Systèmes et Réseaux
   summary: |-
@@ -82,6 +85,7 @@
 
 # UPMC:
 - company: "Université Pierre &amp; Marie Curie, Paris FR"
+  display: none
   duration:   Oct, 1991  &mdash; May, Dec 1994
   position: doctorant + administrateur système
   summary: |-
@@ -89,6 +93,7 @@
 
 # ISEP
 - company: "Institut Supérieur d'Electronique de Paris, Paris FR"
+  display: none
   duration:   Oct, 1990  &mdash; May, Dec 1993
   position: professeur micro-electronique micro-informatique
   summary: |-
